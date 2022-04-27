@@ -5,9 +5,11 @@ pdl = ['PDL','e-mail','nome','telefone']
 hurb = ['Hurb','e-mail','senha','telefone']
 lista_primaria = [adobe, apollo, canva, pdl, hurb]
 lista_senha = []
-lista_senha = []
+lista_email = []
 for i in range(len(lista_primaria)):
     if 'senha' in lista_primaria[i]:
         lista_senha.append(lista_primaria[i][0])
-    elif
+    if 'e-mail' in lista_primaria[i]:
+        lista_email.append(lista_primaria[i][0])
 print(str(lista_senha))
+print(str(lista_email))
